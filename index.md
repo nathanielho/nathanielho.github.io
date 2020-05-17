@@ -1,4 +1,4 @@
-Welcome to the repository of posts on technical things I've accumulated or have not been able to find.
+Welcome to the repository of posts on technical things I've accumulated or have not been able to find elsewhere.
 
 # Docker
 

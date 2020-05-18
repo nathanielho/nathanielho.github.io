@@ -13,24 +13,26 @@ It is of course quite common to run a Linux VM as your Docker host, however we n
 
 
 ## Container>LAN Traffic
-Now we need to enable the traffic in the other direction. So that the packets from the container into the Linux Host is not dropped.
+Now we need to enable the traffic in the other direction. So that the packets from the container into the Linux Host is not dropped. We do this by enabling promiscuous mode on the interface that macvlan is using.
 
 `sudo ip link set eth1 promisc on`
 
-Now you should see that traffic flows two ways. You can ping your Docker container from another host in the network (but not the Linux host due to kernel security). This change is not persistent. One method to make it so is create a rc.local file to run some bash commands on startup.
+Now you should see that traffic flows outwards. You can ping your Docker container from another host in the network (but not the Linux host due to kernel security). This change is not persistent. One method to make it so is create a rc.local file to run some bash commands on startup.
 
-1.	Create/edit the /etc/rc.local file:
-`sudo nano /etc/rc.local`
+1.	Create/edit the /etc/rc.local file: `sudo nano /etc/rc.local`
 
 2.	Paste the following:
-`#!/bin/sh -e
-ip link set enp0s3 promisc on
-ip link set enp0s8 promisc on
-ip link set enp0s9 promisc on
-        exit 0`
+
+```
+#!/bin/sh -e
+ip link set eth1 promisc on
+       exit 0
+```
 
 3.	Now make it executable with
-`chmod +x /etc/rc.local`
+`sudo chmod +x /etc/rc.local`
+
+If you need to reach your Docker container from the Linux host, you can either use other non-macvlan networks to attach to the Docker container, however if you can only use macvlan, then you can follow this [guide](https://blog.oddbit.com/post/2018-03-12-using-docker-macvlan-networks/) to create a separate interface on your host, solely to reach the container.
 
 
 ## Pros

@@ -1,4 +1,4 @@
-If you have a Docker container that requires Layer 2 connectivity e.g. for IP multicast in/out. Then macvlan is one way to achieve this. This essentially allows the container to virtually sit on your LAN of choice. However you will find that some changes are needed to make it work.
+If you have a Docker container that requires Layer 2 connectivity towards a network e.g. for IP multicast in/out. Then macvlan is a good way to achieve this. This essentially allows the container to virtually sit on your LAN of choice. However you will find that some security changes are needed to make it work.
 
 ![Image](./macvlan01-01.JPG)
 

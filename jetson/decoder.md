@@ -1,6 +1,6 @@
 _18th May 2020_
 
-Packing a GPU with half a Teraflop, the Jetson Nano is well suited to some video processing. Although its IO bus speeds are not that great:  I think it would be quite limited in bringing video in to encode (Jetson Xavier is better for that), however the output to the HDMI/DisplayPort should be rather good.
+Packing a GPU with half a Teraflop, the [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) is well suited to some video processing. Although its IO bus speeds are not that great:  I think it would be quite limited in bringing video in to encode (Jetson Xavier is better for that), however the output to the HDMI/DisplayPort should be rather good.
 
 I am looking at projects to use it as device for receiving an internet protected video stream using RIST/SRT/Zixi but first we need to get the decoder operational.
 

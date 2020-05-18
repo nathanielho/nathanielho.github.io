@@ -6,6 +6,6 @@ Welcome to the repository of posts on technical things I've accumulated or have 
 
 # Kubernetes
 
-- [Kuberbetes](./kubernetes/kubernetes01.md)
+- [Kubernetes](./kubernetes/kubernetes01.md)
 
 # Jetson Nano Projects

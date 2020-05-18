@@ -9,3 +9,4 @@ Welcome to the repository of posts on technical things I've accumulated or have 
 - [Kubernetes](./kubernetes/kubernetes01.md)
 
 # Jetson Nano Projects
+- [Decoding Video](./jetson/decoder.md)

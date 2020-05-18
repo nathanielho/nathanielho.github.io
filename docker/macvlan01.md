@@ -5,7 +5,7 @@ If you have a Docker container that requires Layer 2 connectivity e.g. for IP mu
 
 
 ## Enabling VM Promiscuous Mode - LAN>Container
-_This step is if you are using a VM as your host._
+_This step is if your Linux host is in a VM_
 
 It is of course quite common to run a Linux VM as your Docker host, however we need to make sure that the traffic from the LAN can flow towards your container by enabling promiscuous mode. This means your host Ethernet interface will still pick up packets not designated neccessarily for your host MAC. Then this gives the docker container a chance to pick the packets up. 
 

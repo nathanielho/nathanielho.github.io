@@ -1,10 +1,10 @@
 _18th May 2020_
 
-Packing a GPU with half a Teraflop, the [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) is well suited to some video processing. Although its IO bus speeds are not that great:  I think it would be quite limited in bringing video in to encode (Jetson Xavier is better for that), however the output to the HDMI/DisplayPort should be rather good.
+Packing a GPU with half a Teraflop, the [Nvidia Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) is well suited to some video processing. Its IO bus speeds are not that great and I think it would be quite limited in bringing raw video in to encode (the Jetson Xavier is better for that) however the output to the HDMI/DisplayPort should be rather good.
 
-I am looking at projects to use it as device for receiving an internet protected video stream using RIST/SRT/Zixi but first we need to get the decoder operational.
+I am looking at projects to use it as device for receiving an internet protected video stream using an ARQ protocol such as RIST/SRT/Zixi but first we need to get the decoder operational.
 
-The Jetson Nano [image](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write) comes with GStreamer already installed nowadays. To save you a bit of time from the [manual](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1), you can play a file and output it on X11 by using this command:
+The Ubuntu Linux that Nvidia packages in the [Jetpack image](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write) now comes with GStreamer already installed. To save you a bit of time from looking into the [manual](https://developer.nvidia.com/embedded/dlc/l4t-accelerated-gstreamer-guide-32-1), you can play a file and output it on X11 by using this command:
 ```
 gst-launch-1.0 filesrc location=<filename.mp4> ! \ 
 qtdemux name=demux demux.video_0 ! queue ! h264parse ! omxh264dec ! \

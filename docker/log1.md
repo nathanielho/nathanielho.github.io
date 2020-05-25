@@ -9,4 +9,4 @@ These two articles tell you how to setup the log limits:
 - [https://docs.docker.com/config/containers/logging/configure/](https://docs.docker.com/config/containers/logging/configure/)
 - [https://success.docker.com/article/how-to-setup-log-rotation-post-installation](https://success.docker.com/article/how-to-setup-log-rotation-post-installation)
 
-The important aspect is to remove and recreate your container to use the new log rotation rules.
+The important aspect is to **remove and recreate** your container to use the new log rotation rules.

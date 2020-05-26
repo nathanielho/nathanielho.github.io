@@ -6,7 +6,7 @@ I decided to [install the project from scratch](https://github.com/opendatacam/o
 
 Given the high angle and the low resolution of 400x400 snapshot that OpenDataCam extracts for inference, it had no problems with the cars (a previous attempt with mobilenet-ssd would pick them up as **suitcases!**) but struggled with motorcycles and pedestrians.
 
-The next step is to cut down the specific part of the image I require, to hopefully increase the inference success rate.
+The next step is to grab a larger 1280x720 frame and cut down the specific part of the image I require, to hopefully increase the inference success rate.
 
 And the answer is around 1000 cars per hour pass by on the main road.
 

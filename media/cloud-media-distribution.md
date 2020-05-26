@@ -37,21 +37,30 @@ Since media clouds can be used for distribution purposes (e.g. to supplement or 
 
 ![Image](./nimbraedge01.jpg)
 
-_Nimbra Edge shown here is run in Microsoft Azure in Netherlands and has clients devices all over the world - a 2 second ARQ is fine for the connection from Stockholm to my colleague in Melbourne_
+_Nimbra Edge instance shown here is run in Microsoft Azure in the Netherlands and has clients devices all over the world - a 2 second ARQ is fine for the connection from Stockholm to my colleague in Melbourne_
 
-Ease of use is paramount to anything boasting to be a cloud technology. It cannot be simply the same user interface that was created for one device being plonked into the cloud. If the system is made well, then usage would increase on the system driving more traffic. The ability for individual broadcasters to publish content and share with whomever they want is a powerful tool. 
+Ease of use is paramount to anything boasting to be a cloud technology. It cannot be simply the same user interface that was created for one device being plonked into the cloud. If the system is made well, then usage would increase on the system driving more traffic. The ability for individual broadcasters to publish content and share with whomever they want is a powerful tool. Different levels of access is important too, the engineering team may need to know about multicast addressing, however some users may need to be limited to a simple drag & drop interface.
 
 ## Scaling
 
 It is important to choose a system that will allow you to increase as your capacity does. For some services it will be a Seamless service that you do not need to know about, for others you may require some pre-made scaling Kubernetes rules. And if you are running the system yourself, you will always need to rely on your defined internet pipe.
 
+## Multiregion
+
+You may wish to have some servers populated in strategic locations, some cloud services might allow you to run a local server cluster in US Central, with only one copy of the video from Europe, before it distributes locally to the 100 US recievers. This allows you to have a reduced ARQ buffer size as the traffic does not need to traverse transatlantic links.
+
 ## Costs: Public vs Private Cloud
 
 The billing of all these systems vary greatly, most systems have an aspect of charging per GB egressing from the system. Some are time based. The important thing is to choose one that suits your use-case. Public cloud is by far the fastest way to get started (we get new deployments installed in 10 minutes in AWS/Azure), however that flexibility comes at a cost. If you are running 24/7 high quality streams, you may well need to look at running your own datacentre, bare-metal and internet pipes. Only some of the software solutions allow bare-metal installations as well as public cloud. And even fewer that support Hybrid solutions.
 
-## Internet vs Private Lines
+## Internet vs Private Line Connectivity
 
 There is always a way to solve connectivity, insted of depending on your 10Gbps Internet pipe, you may wish to use a DirectConnect to get to AWS MediaConnect or run your own bare-metal installation over private leased lines which should offer you commited SLAs and better performance. Heck why not combine the two and run one leg of a 1+1 over Private and the other on Public Internet. We are pretty much at the stage where we can rely on the software to give us better resiliency.
+
+
+## Statistics
+
+To prove SLAs to end consumers over internet connectivity is not easy, was it the problem in the first mile, or somewhere else in the internet. That will always be hard to find out. However statistics will help you gain a better picture of the wild-west that is the Internet.
 
 
 ## Outro

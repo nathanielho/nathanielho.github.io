@@ -4,12 +4,10 @@ The recent months with Covid-19 lockdown has seen a lot of presenters and journa
 
 ## Centralised Cloud Media Systems
 
-![Image](./nimbraedge01.jpg)
-
-_Nimbra Edge shown here is run in Microsoft Azure in Netherlands and has clients devices all over the world - a 2 second ARQ is fine for the connection from Stockholm to my colleague in Melborne_
-
+![Image](./media-cloud01.jpg)
 
 These work like a virtual video router in the cloud, you bring in streams from anywhere on the internet and pass it on to whoever needs it, and maybe it stays within the cloud. There are many players in this space including AWS MediaConnect, Haivision Video Cloud, Netinsight Nimbra Edge and Zixi Zen master. The main transport principle is using an Automatic Retransmission reQuest (ARQ) Retransmission protocol so that you send things as fast as you can using UDP, but the receiver retains an *ARQ Retransmission Buffer* which is a window of opportunity to ask the sender for any missing packets before playing out. This is better for delay as it is fixed and can be optimised for the previaling internet conditions. Conventional RTMP  is TCP based requires an ACK for every packet which has its limitations for speed and consistency and is not the best for live video with a critical arrival requirement, but is fine for your youtube or Twitch stream which is delayed going to the consumer with an HTTP delivery protocol anyway.
+
 
 ## ARQ Protocols
 Common Protocols are:
@@ -25,10 +23,26 @@ Within a continent we are generally able to see internet Round Trip times of aro
 ## FEC
 ANother way to ensure your signal gets across is to send with Forward Error Correction (FEC). All 3 protocols have FEC as an option and it is up to the user to tune it to be best performance as there is latency in the recovery mechanism. One good example of how it can be used is to send two 1+1/bonding streams with 50% FEC overhead, resulting in a theoretical 200% at the receiver, maximising the chances of a good video signal and allowing for Seamless protection.
 
+## Appliance
+These can be a physical appliance such as an Ateme Encoder, or a piece of software that is just a docker container that you can run on your Macbook. All should at a minimum allow UDP/RTP streams to be sent/received into the cloud. Good cloud systems should allow you to adjust the latency of each receiver so that you can have a customised ARQ buffer for each receiver, or allow alignment of output streams.
+
 ## Codec Latency
 Latencies vary greatly between 150ms to seconds with MPEG4 & HEVC (highly dependent on implementation), to the lower latency encoders such as JPEG2000 (~80-100ms) and the Ultra Low Latency (ULL) JPEG-XS (~2ms). You have to balance out the need for speed versus the bandwith available and quality of the link.
 
+## Synchronisation
+Since media clouds can be used for distribution purposes (e.g. to supplement or replace Satellite), synchronisation can be very important if you want to have the same experience for all the receivers. You may wish to make the ARQ for everyone the same by aligning to the worst connection in Polynesia or stagger different groups. Synchronisation can be achieved by using NTP or even encoding time into the signal. NTP would require everyone to be synchronised to absolute time to ensure perfect performance.
 
+## Management
+
+![Image](./nimbraedge01.jpg)
+
+_Nimbra Edge shown here is run in Microsoft Azure in Netherlands and has clients devices all over the world - a 2 second ARQ is fine for the connection from Stockholm to my colleague in Melbourne_
+
+Ease of use is paramount to anything boasting to be a cloud technology. It cannot be simply the same user interface that was created for one device being plonked into the cloud. If the system is made well, then usage would increase on the system driving more traffic. The ability for invidual broadcasters to publish content and share with whomever they want is a powerful tool. 
+
+## Costs: Public vs Private Cloud
+
+The billing of all these systems vary greatly, most systems have an aspect of charging per GB egressing from the system. Some are time based. The important thing is to choose one that suits your use-case. Public cloud is by far the fastest way to get started (we get new deployments installed in 10 minutes in AWS/Azure), however that flexiblity comes at a cost. If you are running 24/7 high quality streams, you may well need to look at running your own datacentre, bare-metal and internet pipes.
 
 
 

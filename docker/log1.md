@@ -10,3 +10,8 @@ These two articles tell you how to setup the log limits:
 - [https://success.docker.com/article/how-to-setup-log-rotation-post-installation](https://success.docker.com/article/how-to-setup-log-rotation-post-installation)
 
 The important aspect is to **remove and recreate** your container to use the new log rotation rules.
+
+
+If doing a docker run command you can do add it in the command like this:
+
+`docker run --log-driver json-file --log-opt max-size=10m --log-opt max-file=3 hello-world`

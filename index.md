@@ -12,4 +12,5 @@ Welcome to the repository of posts on technical things I've accumulated or have 
 
 
 # Jetson Nano Projects
+- [Street Analysis - Counting Cars](./countingtraffic01.md)
 - [Decoding Video with GStreamer](./jetson/decoder.md)

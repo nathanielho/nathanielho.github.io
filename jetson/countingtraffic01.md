@@ -1,6 +1,6 @@
 ![Image](./countingtraffic01.JPG)
 
-A quick Jetson Nano project I had in mind, was use OpenDataCam to get YOLO to inference objects on the road and count the amount of pedestrians/cars/bikes/motorcycles outside.
+A quick Jetson Nano project I had in mind was use [OpenDataCam](https://github.com/opendatacam/opendatacam) to get YOLO to inference objects on the road and count the amount of pedestrians/cars/bikes/motorcycles outside.
 
 I decided to [install the project from scratch](https://github.com/opendatacam/opendatacam/blob/master/documentation/USE_WITHOUT_DOCKER.md) rather than use the docker container, as I would be able to select different YOLO versions and rebuild. The best YOLO version I found was the pre-trained YOLOv3-tiny-prn. Sadly the Jetson Nano was struggling at 1 FPS with non-tiny v3 and v4.
 

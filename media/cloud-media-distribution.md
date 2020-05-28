@@ -64,6 +64,6 @@ To prove SLAs to end consumers over internet connectivity is not easy, was it th
 
 
 ## Outro
-So there are no shortage of cloud platforms to look at. Maybe you are already into one system and are happily using it. The market being so competitive at the moment it probably comes down to ease of use (for the end-user or the engineering team?) and the cost. Given that everything is cloud based and is avaiable as a SaaS - you can probably change between them quite easily!
+So there are no shortage of cloud platforms to look at. Maybe you are already into one system and are happily using it. With the market being so competitive at the moment it probably comes down to ease of use (for the end-user or the engineering team?) and the cost. Given that everything is cloud based and is avaiable as a SaaS - you can probably change between them quite easily!
 
 

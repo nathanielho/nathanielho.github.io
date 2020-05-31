@@ -2,7 +2,7 @@ Welcome to the repository of posts on technical things I've accumulated or have 
 
 # Media Technology
 
-- [Media Cloud Systems](./media/cloud-media-distribution.md)
+- [Cloud Media Distribution Systems](./media/cloud-media-distribution.md)
 
 
 # Docker

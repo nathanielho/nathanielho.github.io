@@ -1,4 +1,4 @@
-# Cloud Media Contribution & Distribution Systems
+# Cloud Media Distribution Systems
 _May 2020_
 
 The recent months with Covid-19 lockdown has seen a lot of presenters and journalists starting to broadcast from their homes. Sources now range from consumer digital video cameras to mobile phones, mixed with OBS Studio before being sent off via a Zixi/RIST/SRT/RTMP protocol to the broadcasters. Conventional broadcast over private managed networks and point-to-point ARQ Internet connections are gradually moving towards cloud topologies so that video feeds can reach the workflow in the cloud. With AWS Elemental,SimplyLive and Grass Valley pushing their cloud based workflow systems, now more than ever is the need to get all your streams centralised in the cloud. Also it suits our "new normal" where people can work from home yet create broadcast quality productions. The ubiquity of the internet and cloud computing is seemingly taking over another industry! This article gives an overview of centralised cloud media platforms to facilitate the ingest and egress of broadcast quality video.

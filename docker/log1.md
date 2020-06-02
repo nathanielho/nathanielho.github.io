@@ -18,8 +18,9 @@ If doing a docker run command you can add it in the command like this:
 
 ## Method 3 - Enabling Log Rotation in Docker Compose
 
-`version: "3.8"
+And if you are using docker-compose you can use this method:
 
+`
 services:
 
   some-service:
@@ -34,7 +35,8 @@ services:
       
         max-size: "10m"
         
-        max-file: "3"`
+        max-file: "3" 
+        `
 
 
 Now your disks won't be filled up with logs!

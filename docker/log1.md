@@ -16,6 +16,8 @@ If doing a docker run command you can add it in the command like this:
 
 `docker run --log-driver json-file --log-opt max-size=10m --log-opt max-file=3 hello-world`
 
+This will result in 3 files of 10MB max
+
 ## Method 3 - Enabling Log Rotation in Docker Compose
 
 And if you are using docker-compose you can use this method:
@@ -32,6 +34,8 @@ And if you are using docker-compose you can use this method:
         
         max-file: "3" 
         
+This will result in 3 files of 10MB max
+
 
 
 Now your disks won't be filled up with logs!

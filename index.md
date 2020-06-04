@@ -23,5 +23,5 @@ Technical posts of things I've accumulated or have not been able to find elsewhe
 
 # About Me
 
-I am a Techncial Sales Engineer at Net Insight working on media telecommunciations, processing and compression. I have previously worked at Ericsson in Sweden on Mobile Core SDN, Openflow, Mobile Backhaul, IP & Metro Ethernet.
+I am a Techncial Sales Engineer at Net Insight working in media telecommunciations, processing and compression. I have previously worked at Ericsson in Sweden on Mobile Core SDN, Openflow, Mobile Backhaul, IP & Metro Ethernet.
 [LinkedIn](https://www.linkedin.com/in/nathaniel-ho-30434a11/)

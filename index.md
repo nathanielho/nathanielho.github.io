@@ -14,7 +14,7 @@ Packing a GPU with half a Teraflop, the Nvidia Jetson Nano is the hobby SoC boar
 - [Decoding Video with GStreamer](./jetson/decoder.md)
 
 
-# Tech HowTos
+# Tech How-Tos
 Technical posts of things I've accumulated or have not been able to find elsewhere.
 
 - [Docker: Enabling Promiscuous Mode for MACVLAN Networking](./docker/macvlan01.md)

@@ -2,13 +2,13 @@
 
 
 # Media Technology
-Articles Media Transport & Codec Technologies
+Articles Media Transport & Codec Technologies, especially pertaining to the transition to cloud.
 
 - [Cloud Media Distribution Systems](./media/cloud-media-distribution.md)
 
 
 # Jetson Nano Projects
-Packing a GPU with half a Teraflop, the Nvidia Jetson Nano is the hobby SoC board for accelerated AI and video processing.
+Packing a GPU with half a Teraflop, the Nvidia Jetson Nano is the hobby SoC board for accelerated AI and video processing. Here's some brief information about the projects I am dabbling in.
 
 - [Street Analysis - Counting Cars](./jetson/countingtraffic01.md)
 - [Decoding Video with GStreamer](./jetson/decoder.md)

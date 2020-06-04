@@ -8,6 +8,7 @@ Articles Media Transport & Codec Technologies
 
 
 # Jetson Nano Projects
+Packing a GPU with half a Teraflop, the Nvidia Jetson Nano is the hobby SoC board for accelerated AI and video processing.
 
 - [Street Analysis - Counting Cars](./jetson/countingtraffic01.md)
 - [Decoding Video with GStreamer](./jetson/decoder.md)
@@ -24,4 +25,5 @@ Technical posts of things I've accumulated or have not been able to find elsewhe
 # About Me
 
 I am a Techncial Sales Engineer at Net Insight working in media telecommunciations, processing and compression. I have previously worked at Ericsson in Sweden on Mobile Core SDN, Openflow, Mobile Backhaul, IP & Metro Ethernet.
+
 [LinkedIn](https://www.linkedin.com/in/nathaniel-ho-30434a11/)

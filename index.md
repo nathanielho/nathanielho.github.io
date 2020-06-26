@@ -1,4 +1,4 @@
-
+Welcome to my website that is an accumulation of technical posts.
 
 
 # Media Technology

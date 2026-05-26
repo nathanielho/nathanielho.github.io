@@ -3,7 +3,7 @@ author:
   name: Nathaniel Ho
   email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Technical blog posts of useful information on docker and kubernetes
+  Blog covering Solar, Home Automation, Containerisation and Media
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format

@@ -1,9 +1,12 @@
 Welcome to my website that covers some technical topics in computing and cloud. 
 
+# Solar & Batteries & V2G/V2H
+Articles on Solar PV, Home Batteries, Vehicle-to-Grid / Vehicle-to-Home. See how I've kitted out my parents' retirement home!
 
+- [Parents Power Plant 01 - Intro](./solar/ppp-01-intro.md)
 
 # Media Technology
-Articles Media Transport & Codec Technologies, especially pertaining to the transition to cloud.
+Articles about Media Transport & Codec Technologies, especially pertaining to the transition to cloud.
 
 - [Cloud Media Distribution Systems](./media/cloud-media-distribution.md)
 

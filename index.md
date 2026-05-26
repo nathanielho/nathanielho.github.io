@@ -28,6 +28,11 @@ Technical posts of things I've accumulated or have not been able to find elsewhe
 
 # About Me
 
-I am a Techncial Sales Engineer at Net Insight working in media telecommunciations, processing and compression. I have previously worked at Ericsson in Sweden on Mobile Core, SDN, Openflow, Mobile Backhaul, IP & Metro Ethernet. I enjoy photography, attending music concerts, motorsports and I have just started getting into road cycling.
+I am a Principal Account Cloud Engineer at Oracle Cloud, working on solving business problems with GenAI and the wider OCI portfolio. My main interest is green energy and the environment. I love seeing how Solar PV can create energy independence and building home automation systems to link together disparate systems. I also enjoy photography, attending music concerts, motorsports and I have just started getting into road cycling.
+
+Previously:
+- Technical Solutions Architect at Cisco
+- Techncial Sales Engineer at Net Insight working on media telecommunciations, processing and compression
+- Product Implmentation Engineer at Ericsson in Sweden working on Mobile Core, SDN, Openflow, Mobile Backhaul, IP & Metro Ethernet
 
 [LinkedIn](https://www.linkedin.com/in/nathaniel-ho-30434a11/)

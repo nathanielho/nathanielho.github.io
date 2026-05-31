@@ -1,10 +1,8 @@
 ---
 youtubeId: A2-DZb0vaq8
 layout: page
-title: "Pensioners Power Plant — Intro"
+title: "Pensioners Power Plant 01 — Intro"
 ---
-
-## Overview
 
 _May 2026_
 

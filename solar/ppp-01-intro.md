@@ -1,8 +1,10 @@
 ---
-youtubeId: A2-DZb0vaq8 
+youtubeId: A2-DZb0vaq8
+layout: page
+title: "Pensioners Power Plant — Intro"
 ---
 
-## Pensioners Power Plant 01 - Intro
+## Overview
 
 _May 2026_
 
@@ -98,8 +100,4 @@ The Sigenergy system has worked really well and was definitely worth paying the 
 The sizing of the battery was pretty much at fluke at 16kWh, we charge it up to 100% every night on off-peak 7p electricity. On most 5'C winter days it is sufficient to sustain the House & Heat Pump during the 18 hours of peak electricity hours. And when we are a bit short, we use the EV to provide a few kWh of its off-peak energy.
 
 I can highly recommend the Sigenergy system and AIKO Solar PV panels. Thankfully we were in a position to buy the premium solution and I think its performance will give dividends over the next 30 years!
-
-	
-
-
 

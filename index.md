@@ -3,8 +3,8 @@ Welcome to my website that covers some technical topics in computing and cloud.
 # Solar & Batteries & V2G/V2H
 Articles on Solar PV, Home Batteries, Vehicle-to-Grid / Vehicle-to-Home. See how I've kitted out my parents' retirement home!
 
-- [Parents Power Plant 01 - Intro](./solar/ppp-01-intro.md)
-- [Parents Power Plant 02 - EVDC](./solar/ppp-02-evdc.md)
+- [Pensioners Power Plant 01 - Intro](./solar/ppp-01-intro.md)
+- [Pensioners Power Plant 02 - EVDC](./solar/ppp-02-evdc.md)
 
 # Media Technology
 Articles about Media Transport & Codec Technologies, especially pertaining to the transition to cloud.
@@ -36,4 +36,4 @@ Previously:
 - Techncial Sales Engineer at Net Insight working on media telecommunciations, processing and compression
 - Product Implmentation Engineer at Ericsson in Sweden working on Mobile Core, SDN, Openflow, Mobile Backhaul, IP & Metro Ethernet
 
-[LinkedIn](https://www.linkedin.com/in/nathaniel-ho-30434a11/)
+[LinkedIn](https://www.linkedin.com/in/nathanielho23/)

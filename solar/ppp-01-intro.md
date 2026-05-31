@@ -1,7 +1,6 @@
-## Parents Power Plant - 01 Intro
 _May 2026_
 
-{% include youtubePlayer.html id=A2-DZb0vaq8 %}
+{% include youtubePlayer.html id=page.A2-DZb0vaq8 %}
 
 ## The EPC C House
 

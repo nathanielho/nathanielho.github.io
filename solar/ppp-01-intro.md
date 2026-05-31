@@ -1,6 +1,8 @@
 ## Parents Power Plant - 01 Intro
 _May 2026_
 
+{% include youtubePlayer.html id=A2-DZb0vaq8 %}
+
 ## The EPC C House
 
 My parents purchased a bungalow to be their retirement home and on viewing the first video sent by them, it showed my biggest fear... a Gas Boiler in the second bedroom cupboard!

@@ -10,9 +10,9 @@ _May 2026_
 
 ## The EPC C House
 
-In 2025 my parents purchased a bungalow to be their retirement home. The house is a 2-bed, 60 square metres, was built in 1996 and has an EPC of C. So my guestimation is a gas bill of £600 per year, especially the South facing aspect it has.
+In 2025 my parents purchased a bungalow to be their retirement home. The house is 2 bedroom, 60 square metres, was built in 1996 and has an EPC rating C. So my guestimation is a gas bill of £600 per year, especially the South facing aspect it has.
 
-So stage 1 of the journey was actually getting the Heat Pump (which will be covered in another section), and although I knew that Octopus Agile would happily support the heat pump at the same price as gas (`18p/kWh divided by SCOP of 4`), it would make sense to go all in and proceed with stage 2 was to power that Heat Pump with Solar.
+So stage 1 of the journey was actually getting the Heat Pump (which will be covered in another [section](../heatpump/heatpump01.md), and although I knew that Octopus Agile would happily support the heat pump at the same price as gas (`18p/kWh divided by SCOP of 4`), it would make sense to go all in and proceed with stage 2 was to power that Heat Pump with Solar.
 
 The house had a 60 Amp fuse and a very early 90s looking consumer unit that was cracked. Yet somehow the seller's electrician managed to sign off an EICR for that... Anyway we decided _that had to go_ too for a modern metal consumer unit as part of the whole solar project.
 
@@ -99,3 +99,12 @@ The sizing of the battery was pretty much at fluke at 16kWh, we charge it up to 
 
 I can highly recommend the Sigenergy system and AIKO Solar PV panels. Thankfully we were in a position to buy the premium solution and I think its performance will give dividends over the next 30 years!
 
+
+## Products
+
+Solar PV: 14x AIKO Neostar 2S+ 510W (7140W)
+Solar Inverter: Sigenergy 8kW Single Phase
+Home Battery: 2x Sigenergy 8.06 kWh (16.12 kWh)
+EV Charger: Sigenergy EVDC 12.5 kW with 10m cable
+Heat Pump: Vaillant aroTHERM 5kW with myVAILLANT Connect
+Under Floor Heating: ProWarm Lo-Flo

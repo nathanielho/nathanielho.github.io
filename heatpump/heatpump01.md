@@ -23,23 +23,23 @@ Unfortunately in the town there were no Heat Pump installers and I had to look a
 ## Retrofit
 I knew that with an EPC C house it was going to be relatively good canvas to start with. It’s not too leaky and we can constantly pump heat in to deal with the heat loss. It is also has some big south facing windows so the passive solar gain is also very good.
 
-My original plan was to keep the existing radiators and operate the Heat Pump at high temperature - it would be good to prove that works - however the radiators were all fed with microbore pipes. These pipes have a diameter of a pencil! So the installer said by the time he starts changing out the pipes and a few radiators, it would be pretty cost comparable to installing underfloor heating. Fortunately we were able to afford a 2 month window where all the Heat Pump & Solar works could be carried out in the empty house, before we had to move in.
+My original plan was to keep the existing radiators and operate the Heat Pump at high temperature - with the intention that it would be good to prove that works - however the radiators were all fed with microbore pipes. These pipes have a diameter of a pencil! So the installer said by the time he starts changing out the pipes and a few radiators, it would be pretty cost comparable to installing underfloor heating. Fortunately we were able to afford a 2 month window where all the Heat Pump & Solar works could be carried out in the empty house, before we had to move in.
 
 ## Overlay Underfloor Heating (UFH)
 According to Building Regulations, underfloor heating should be done with high levels of insulation. Think 100mm cotex, with pipes laid on top, finished with a nice 30-50mm concrete screed.
 
 However this would involve digging up the very nice concrete floor and take ages. There is now the availability of overlay systems which are polystyrene boards of 20-30mm thick, which have grooves to put in the UFH pipes and finished with silver foil. These boards sit directly on to the existing concrete floor and shouldn't heat the concrete up too much. You top this off with 20mm of self-levelling screed for a nice smooth finish. 
 
-Unfortunately the job done by the installer was horrendous, it wasn’t level with some pipes still exposed. Frankly there wasn’t enough used and with the sinking of the screed into pits and grooves, it looked spottier than a teenagers face. It frankly looked like the first time he'd ever done screeding...
+Unfortunately the job done by the installer was horrendous, it wasn’t level with some pipes still exposed. Frankly there wasn’t enough used and with the sinking of the screed into pits and grooves, it looked spottier than a teenagers face. It frankly looked like the first time he'd ever done screeding... The opinion of the flooring installer was that it was really unacceptable and would lead to the vinyl tearing over the imperfect pits and dips.
 
-Our builder came to save the day by adding more of the same self-levelling screed and although not fully level, the smoothness was much improved which meant that luxury vinyl could be put on without fear of it tearing. 
+Our builder came to save the day by adding more of the same self-levelling screed and although not fully level, the smoothness was much improved which meant that luxury vinyl could be put on without fear of it tearing. It has been saved but due to height changes you can catch yourself on the odd high point.
 
 Vinyl was chosen for the practical purpose of it being quite grippy - useful for the elderly. If I had known the Heat Pump installer would not be able to do a good job, I would have opted for laminate floorboards. As this does not require screed but rather an intermediate plastic grid. _But how was I to know?_
 
 
 ## Vaillant aroTherm 5kW
 
-A Vaillant aroTherm 5kW was quoted by the installer, along with the Vaillant 150L tank. We opted for remote app connectivity with the myVAILLANT Connect, so that I could control and diagnose it from anywhere in the world.
+A Vaillant aroTherm 5kW was quoted by the installer, along with the Vaillant 150L slimline tank. We opted for remote app connectivity with the myVAILLANT Connect, so that I could control and diagnose it from anywhere in the world.
 
 The only connection possible is via 2.4GHz WiFi and I originally found the app to be very “buggy” and new settings would only be set 25% of the time. This turned out to be caused by WiFi connectivity & congestion issues. Once I offloaded all the home computers/tablets/phones to 5GHz band, the Vaillant app left alone on 2.4GHz WiFi band has been working very well.
 

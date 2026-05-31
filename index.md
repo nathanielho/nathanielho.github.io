@@ -7,7 +7,7 @@ Articles on Solar PV, Home Batteries, Vehicle-to-Grid / Vehicle-to-Home. See how
 - [Pensioners Power Plant 02 - EVDC](./solar/ppp-02-evdc.md)
 
 
-# Heat Pumps & Zero Gas
+# Heat Pumps
 Articles on the Heat Pump, underfloor heating system and controls. See how I've kitted out my parents' retirement home!
 
 - [Heat Pump 01 Intro - EVDC](./heatpump/heatpump01.md)

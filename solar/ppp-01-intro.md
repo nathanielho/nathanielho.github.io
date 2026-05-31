@@ -1,6 +1,10 @@
+---
+youtubeId: A2-DZb0vaq8 
+---
+
 _May 2026_
 
-{% include youtubePlayer.html id=page.A2-DZb0vaq8 %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## The EPC C House
 

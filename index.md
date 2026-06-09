@@ -4,7 +4,6 @@ Welcome to my website that covers some technical topics in computing and cloud.
 Articles on Solar PV, Home Batteries, Vehicle-to-Grid / Vehicle-to-Home. See how I've kitted out my parents' retirement home!
 
 - [Pensioners Power Plant 01 - Intro](./solar/ppp-01-intro.md)
-- [Pensioners Power Plant 02 - EVDC](./solar/ppp-02-evdc.md)
 
 
 # Heat Pumps
